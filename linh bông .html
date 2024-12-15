@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Ngủ Ngon</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f201fa, #ff00d4);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+            animation: fadeIn 2s ease-out;
+        }
+
+        p {
+            font-size: 24px;
+            margin-top: 20px;
+            opacity: 0;
+            animation: fadeIn 3s ease-out 1s forwards;
+        }
+
+        .heart {
+            font-size: 60px;
+            margin-top: 30px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                color: #ff4081;
+            }
+            50% {
+                transform: scale(1.2);
+                color: #e91e63;
+            }
+            100% {
+                transform: scale(1);
+                color: #ff4081;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>chúc linh bông ngủ ngon nhá </h1>
+        <p>mơ thấy tớ nhe </p>
+        <div class="heart">😘</div>
+        <p> ngủ không ngon gọi cho tớ nhé  </p>
+    </div>
+</body>
+</html>
